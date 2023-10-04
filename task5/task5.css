@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  #main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+  }
+
+
+  /* Left side container starts here */
+  .left {
+    padding: 20px 40px;
+    width: 60vw;
+  }
+
+  .logo img {
+    width: 55px;
+    margin: 10px;
+  }
+
+  /* navigation bar starts here */
+  .left nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items {
+    padding: 10px;
+  }
+  nav .nav-items .upper-items {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .upper-items a {
+    margin-left: 15px;
+    font-size: 13px;
+    color: #000;
+  }
+
+  .lower-items button {
+    font-size: 13px;
+    padding: 7px 10px;
+    margin-left: 15px;
+    background: transparent;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    outline: none;
+  }
+  #login {
+    background: #f4731e;
+    color: #fff;
+  }
+/* Navigation bar ended */
+
+/* Content container starts here */
+.content{
+
+    margin: 20px 0;
+    padding: 20px 2px ;
+}
+.content h1{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.content h2 span{
+    margin-right: 15px;
+}
+.content h2 span:nth-child(1){
+    color: #29ee30;
+}
+.content h2 span:nth-child(2){
+    color: orange;
+}
+.content h2 span:nth-child(3){
+    color: #0f0f6b;
+}
+/* content container end here */
+
+/* Buttons section starts here */
+.buttons{
+    margin: 10px 0;
+
+}
+.buttons button{
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 10px 14px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons button i{
+    padding: 0 2px;
+}
+#book{
+    background-color: #1f1f77;
+    color: #fff;
+}
+/* Buttons section ends here */
+
+/* Train info start here */
+.train-info{
+    margin: 30px 0;
+   
+}
+.train-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #665e5e91;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.left-content{
+    display: flex;
+    align-items: center;
+
+}
+.left-content i{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.info span,.info span i{
+    font-size: 13px;
+    padding: 5px 2px;
+}
+.info h2{
+    padding: 2px 0;
+    margin-bottom: 2px;
+}
+.info p{
+    font-size: 13px;
+}
+
+.mid-content i{
+    border: 1px solid #000;
+    font-size: 1.3rem;
+    color: #433d3de4;
+    padding: 5px;
+    border-radius: 50%;
+}
+.mid-content span i{
+    font-size: 13px;
+    border: none;
+}
+/* Train info ends here */
+
+#btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #05bc0b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Left container ends here */
+
+/* Right container starts here */
+.right {
+    width: 50%;
+  }
+  .right img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }

@@ -1,0 +1,134 @@
+<!-- Create a price section -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing section</title>
+    <style>
+      .pricing-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        height: 340px;
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #0b0b22;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 20px;
+        border-radius: 5px;
+      }
+      .card h1 {
+        margin: 4px 0;
+      }
+      .headings span {
+        font-size: 18px;
+      }
+      .card .features {
+        padding: 10px 0;
+        margin-bottom: 5px;
+        list-style: none;
+      }
+      .features li {
+        margin-bottom: 7px;
+      }
+      .card .features span {
+        color: #fff;
+        font-size: 1rem;
+        background: #0b0b22;
+        padding: 3px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+      .card button {
+        background-color: #0b0b22;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+      }
+
+      #card1 {
+        border: 2px solid goldenrod;
+        box-shadow: 1px 1px 10px goldenrod;
+      }
+      #card2 {
+        background: #0b0b22;
+        color: #fff;
+        box-shadow: 1px 1px 10px #06061f;
+      }
+      #card2 button {
+        background: #fff;
+        color: #0b0b22;
+      }
+      #card2 .features li span {
+        background: #fff;
+        color: #0b0b22;
+      }
+
+      #card3 {
+        border: 1px solid #ccc;
+        box-shadow: 2px 1px 20px #e3dfdfcc;
+      }
+      #card3 .headings {
+        margin-left: -30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pricing-section">
+      <div class="card" id="card1">
+        <div class="headings">
+          <h1>Free Plan</h1>
+          <span>For personal</span>
+          <h1>$0</h1>
+        </div>
+        <div class="features">
+          <li><span>&check;</span> 1 Users</li>
+          <li><span>&check;</span> 4 Web Mails</li>
+          <li><span>&check;</span> Responsive Website</li>
+          <li><span>&check;</span> Free SSL</li>
+        </div>
+        <button>Subscribe now</button>
+      </div>
+      <div class="card" id="card2">
+        <div class="headings">
+          <h1>Basic Plan</h1>
+          <span>For small business</span>
+          <h1>$29</h1>
+        </div>
+        <div class="features">
+          <li><span>&check;</span> 1 Users</li>
+          <li><span>&check;</span> 10 Web Mails</li>
+          <li><span>&check;</span> Responsive Website</li>
+          <li><span>&check;</span> Free SSL</li>
+        </div>
+        <button>Subscribe now</button>
+      </div>
+      <div class="card" id="card3">
+        <div class="headings">
+          <h1>Pro Plan</h1>
+          <span>For enterprise</span>
+          <h1>$49</h1>
+        </div>
+        <div class="features">
+          <li><span>&check;</span> Unlimited Users</li>
+          <li><span>&check;</span> Unlimited Web Mails</li>
+          <li><span>&check;</span> Responsive Website</li>
+          <li><span>&check;</span> Free SSL + SEO</li>
+        </div>
+        <button>Subscribe now</button>
+      </div>
+    </div>
+  </body>
+</html>

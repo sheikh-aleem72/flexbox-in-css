@@ -1,0 +1,37 @@
+task2: Explain the role of the following key properties in the Flexbox layout model.
+1. Justify-content
+2. align-items
+3. Gap
+4. Flex-direction 
+5. Flex-wrap
+Ans:
+
+1. justify-content:
+Role: 
+	This property is used to control the alignment of flex items along the main axis (the primary direction in which the elements are laid out) within the flex container.
+Values: 
+	Common values include "flex-start" (items are aligned at the start of the main axis), "flex-end" (items are aligned at the end of the main axis), "center" (items are centered along the main axis), "space-between" (items are evenly distributed along the main axis with space between them), and "space-around" (items are evenly distributed with space around them).
+
+align-items:
+Role: 
+	This property is used to control the alignment of flex items along the cross-axis (the perpendicular direction to the main axis) within the flex container.
+Values: 
+	Common values include "flex-start" (items are aligned at the start of the cross-axis), "flex-end" (items are aligned at the end of the cross-axis), "center" (items are centered along the cross-axis), "baseline" (items are aligned based on their baseline), and "stretch" (items are stretched to fill the cross-axis).
+
+gap:
+Role: 
+	This property sets the spacing between flex items within a flex container. It is a shorthand property for setting both row-gap and column-gap in a grid or flex container.
+Value: 
+	You can specify a single value for a uniform gap, or you can use the "row-gap" and "column-gap" properties to set different gaps for rows and columns.
+
+flex-direction:
+Role: 
+	This property determines the direction in which flex items are laid out within the flex container.
+Values: 
+	Common values include "row" (items are laid out in a horizontal row), "row-reverse" (items are laid out in a horizontal row in reverse order), "column" (items are laid out in a vertical column), and "column-reverse" (items are laid out in a vertical column in reverse order).
+
+flex-wrap:
+Role: 
+	This property controls whether flex items are allowed to wrap onto multiple lines if they don't fit within the flex container's available space.
+Values: 
+	Common values include "nowrap" (items do not wrap and will overflow the container if necessary), "wrap" (items are allowed to wrap onto multiple lines if needed), and "wrap-reverse" (items wrap onto multiple lines in the reverse order).
